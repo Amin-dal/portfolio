@@ -2,25 +2,42 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "@emailjs/browser";
 
 export function Contact() {
-  const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false);
+const { toast } = useToast();
+const [isSubmitting, setIsSubmitting] = useState(false);
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  const form = e.currentTarget;
 
-    setTimeout(() => {
-      setIsSubmitting(false);
-      const form = e.target as HTMLFormElement;
-      form.reset();
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you shortly.",
-      });
-    }, 1500);
-  };
+  try {
+    await emailjs.sendForm(
+      "service_3c47nom",
+      "template_csxakid",
+      form,
+      "jEr_iLWbno-SBhmVd"
+    );
+
+    form.reset();
+
+    toast({
+      title: "Message Sent!",
+      description: "Thank you for reaching out. I'll get back to you shortly.",
+    });
+  } catch (error) {
+    console.error(error);
+
+    toast({
+      title: "Error",
+      description: "Failed to send message. Please try again.",
+    });
+  }
+
+  setIsSubmitting(false);
+};
 
   return (
     <section
@@ -135,7 +152,7 @@ export function Contact() {
                     </label>
                     <input
                       type="text"
-                      id="name"
+                      id="name" name="name"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-background/80 border border-primary/20 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-foreground placeholder:text-muted-foreground"
                       placeholder="John Doe"
@@ -147,7 +164,7 @@ export function Contact() {
                     </label>
                     <input
                       type="email"
-                      id="email"
+                      id="email" name="email"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-background/80 border border-primary/20 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-foreground placeholder:text-muted-foreground"
                       placeholder="john@example.com"
@@ -162,7 +179,7 @@ export function Contact() {
                   </label>
                   <input
                     type="tel"
-                    id="phone"
+                    id="phone" name="phone"
                     className="w-full px-4 py-3 rounded-xl bg-background/80 border border-primary/20 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-foreground placeholder:text-muted-foreground"
                     placeholder="+1 (555) 000-0000"
                   />
@@ -174,6 +191,7 @@ export function Contact() {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     required
                     rows={5}
                     className="w-full px-4 py-3 rounded-xl bg-background/80 border border-primary/20 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none text-foreground placeholder:text-muted-foreground"
