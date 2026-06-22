@@ -1,0 +1,23 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#eef6ff"/>
+  <rect x="72" y="70" width="1056" height="620" rx="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="3"/>
+  <rect x="72" y="70" width="1056" height="82" rx="34" fill="#0f4c81"/>
+  <circle cx="120" cy="111" r="11" fill="#ff6b6b"/>
+  <circle cx="154" cy="111" r="11" fill="#ffd166"/>
+  <circle cx="188" cy="111" r="11" fill="#06d6a0"/>
+  <rect x="840" y="101" width="78" height="15" rx="7" fill="#dbeafe"/>
+  <rect x="942" y="101" width="78" height="15" rx="7" fill="#dbeafe"/>
+  <rect x="220" y="212" width="360" height="38" rx="10" fill="#0f4c81"/>
+  <rect x="220" y="274" width="454" height="18" rx="9" fill="#64748b"/>
+  <rect x="220" y="310" width="390" height="18" rx="9" fill="#94a3b8"/>
+  <rect x="220" y="378" width="156" height="48" rx="24" fill="#2563eb"/>
+  <path d="M760 258H930L998 538H692L760 258Z" fill="#dbeafe" stroke="#60a5fa" stroke-width="8"/>
+  <path d="M808 258V538M884 258V538M732 374H970M710 458H990" stroke="#0f4c81" stroke-width="10" stroke-linecap="round"/>
+  <rect x="220" y="505" width="156" height="82" rx="18" fill="#eff6ff" stroke="#bfdbfe" stroke-width="3"/>
+  <rect x="408" y="505" width="156" height="82" rx="18" fill="#eff6ff" stroke="#bfdbfe" stroke-width="3"/>
+  <rect x="596" y="505" width="156" height="82" rx="18" fill="#eff6ff" stroke="#bfdbfe" stroke-width="3"/>
+  <rect x="246" y="530" width="84" height="14" rx="7" fill="#2563eb"/>
+  <rect x="434" y="530" width="84" height="14" rx="7" fill="#2563eb"/>
+  <rect x="622" y="530" width="84" height="14" rx="7" fill="#2563eb"/>
+  <text x="220" y="196" fill="#1e293b" font-family="Arial, sans-serif" font-size="28" font-weight="700">Hawa Engineering Ltd</text>
+</svg>

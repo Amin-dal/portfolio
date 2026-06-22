@@ -1,0 +1,24 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#fff7ed"/>
+  <rect x="70" y="64" width="1060" height="628" rx="34" fill="#ffffff" stroke="#fed7aa" stroke-width="3"/>
+  <rect x="70" y="64" width="1060" height="86" rx="34" fill="#7c2d12"/>
+  <circle cx="120" cy="107" r="11" fill="#fb7185"/>
+  <circle cx="154" cy="107" r="11" fill="#fbbf24"/>
+  <circle cx="188" cy="107" r="11" fill="#34d399"/>
+  <rect x="820" y="98" width="72" height="14" rx="7" fill="#fed7aa"/>
+  <rect x="916" y="98" width="72" height="14" rx="7" fill="#fed7aa"/>
+  <rect x="1012" y="98" width="44" height="14" rx="7" fill="#fed7aa"/>
+  <rect x="150" y="204" width="326" height="44" rx="12" fill="#7c2d12"/>
+  <rect x="150" y="276" width="432" height="18" rx="9" fill="#78716c"/>
+  <rect x="150" y="312" width="360" height="18" rx="9" fill="#a8a29e"/>
+  <rect x="150" y="388" width="166" height="50" rx="25" fill="#ea580c"/>
+  <rect x="690" y="205" width="134" height="178" rx="24" fill="#ffedd5" stroke="#fb923c" stroke-width="4"/>
+  <rect x="850" y="205" width="134" height="178" rx="24" fill="#fef3c7" stroke="#f59e0b" stroke-width="4"/>
+  <rect x="770" y="410" width="134" height="178" rx="24" fill="#ecfccb" stroke="#84cc16" stroke-width="4"/>
+  <circle cx="757" cy="281" r="44" fill="#ea580c"/>
+  <circle cx="917" cy="281" r="44" fill="#ca8a04"/>
+  <circle cx="837" cy="496" r="44" fill="#65a30d"/>
+  <rect x="190" y="526" width="132" height="16" rx="8" fill="#ea580c"/>
+  <rect x="190" y="560" width="290" height="14" rx="7" fill="#fed7aa"/>
+  <text x="150" y="190" fill="#1c1917" font-family="Arial, sans-serif" font-size="28" font-weight="700">Aira India</text>
+</svg>
