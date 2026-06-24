@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { VscCode } from "react-icons/vsc";
 import {SiWordpress,SiElementor, SiWoo, SiHtml5, SiJavascript, SiBootstrap, SiTailwindcss, SiPhp, SiMysql,
   SiAngular, SiNextdotjs, SiTypescript, SiGithub, SiFigma, SiCpanel,SiPostman,SiNetlify,SiGit} from "react-icons/si";
-import {FaPaintBrush, FaPuzzlePiece, FaRocket, FaExchangeAlt, FaMobileAlt, FaPlug, FaSearch,FaCss3Alt, FaPenNib} from "react-icons/fa";
+import {FaPaintBrush, FaPuzzlePiece, FaRocket, FaExchangeAlt, FaMobileAlt, FaPlug, FaSearch,FaCss3Alt, FaPenNib, FaReact, FaShopify} from "react-icons/fa";
 
 export function Skills() {
   const skillCategories = [
@@ -16,10 +16,11 @@ export function Skills() {
         { name: "ACF (Advanced Custom Fields)", percent: 85, icon: FaPuzzlePiece, color: "#8B5CF6" },
         { name: "Theme Customization", percent: 92, icon: FaPaintBrush, color: "#FF9800" },
         { name: "Plugin Customization", percent: 85, icon: FaPuzzlePiece, color: "#4CAF50" },
-        { name: "PHP", percent: 85, icon: SiPhp, color: "#777BB4" },
-        { name: "MySQL", percent: 85, icon: SiMysql, color: "#4479A1" },
-        { name: "Website Speed Optimization", percent: 85, icon: FaRocket, color: "#F97316" },
-        { name: "Website Migration", percent: 85, icon: FaExchangeAlt, color: "#14B8A6" },
+        { name: "Shopify", percent: 87, icon: FaShopify, color: "#95BF47" },
+        { name: "PHP", percent: 80, icon: SiPhp, color: "#777BB4" },
+        { name: "MySQL", percent: 82, icon: SiMysql, color: "#4479A1" },
+        { name: "Website Speed Optimization", percent: 90, icon: FaRocket, color: "#F97316" },
+        { name: "Website Migration", percent: 92, icon: FaExchangeAlt, color: "#14B8A6" },
         
       ]
     },
@@ -30,9 +31,10 @@ export function Skills() {
         { name: "CSS3", percent: 88, icon: FaCss3Alt, color: "#1572B6" },
         { name: "Tailwind CSS", percent: 91, icon: SiTailwindcss, color: "#06B6D4" },
         { name: "Bootstrap", percent: 85, icon: SiBootstrap, color: "#7952B3" },
+        { name: "Angular", percent: 95, icon: SiAngular, color: "#DD0031" },
+        { name: "React.js", percent: 85, icon: FaReact, color: "#61DAFB" },
+        { name: "Next.js", percent: 88, icon: SiNextdotjs, color: "#000000" },
         { name: "JavaScript", percent: 75, icon: SiJavascript, color: "#F7DF1E" },
-        { name: "Angular", percent: 80, icon: SiAngular, color: "#DD0031" },
-        { name: "Next.js", percent: 75, icon: SiNextdotjs, color: "#FFFFFF" },
         { name: "TypeScript", percent: 75, icon: SiTypescript, color: "#3178C6" },
         { name: "Responsive Design", percent: 90, icon: FaMobileAlt, color: "#06B6D4" },
         { name: "API Integration", percent: 80, icon: FaPlug, color: "#22C55E" },

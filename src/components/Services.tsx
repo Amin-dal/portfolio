@@ -4,8 +4,8 @@ import { Laptop, ShoppingCart, LayoutTemplate, Zap, ShieldCheck, Paintbrush } fr
 export function Services() {
   const services = [
     {
-      title: "WordPress Website Development",
-      description: "Custom, responsive websites built from scratch or with premium themes tailored to your brand.",
+      title: "WordPress & Frontend Development",
+      description: "Custom websites and web applications built using WordPress, Elementor, ACF, React.js, Next.js, and Angular with responsive, scalable, and high-performance solutions.",
       icon: Laptop,
     },
     {

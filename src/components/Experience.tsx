@@ -7,7 +7,7 @@ const experiences = [
     title: "WordPress Developer",
     company: "JMSC POS, Ahmedabad",
     side: "left",
-    tools: ["WordPress", "Elementor", "WooCommerce", "cPanel"],
+    tools: ["WordPress", "Elementor", "WooCommerce", "cPanel","ACF", "WooCommerce","Tailwind CSS", "JavaScript", "PHP", "MySQL"],
     responsibilities: [
       "Developed and maintained responsive and SEO-friendly WordPress websites for clients across multiple industries",
       "Converted Figma and PSD designs into pixel-perfect WordPress websites using Elementor and custom styling",
@@ -22,7 +22,7 @@ const experiences = [
     title: "Junior WordPress Developer",
     company: "Techteer Solution, Ahmedabad",
     side: "right",
-    tools: ["WordPress", "Elementor", "HTML", "CSS", "Bootstrap"],
+    tools: ["WordPress", "Elementor", "ACF", "WooCommerce", "HTML", "CSS", "Bootstrap", "Tailwind CSS", "JavaScript", "React.js", "Next.js", "PHP", "MySQL", "Contact Form ", "Git", "GitHub", "Website Migration", "Responsive Design", "Page Speed Optimization"],
     responsibilities: [
       "Developed responsive WordPress websites using Elementor, HTML, CSS, and Bootstrap",
       "Assisted in creating and customizing WordPress themes and landing pages",
@@ -155,5 +155,6 @@ export function Experience() {
         </div>
       </div>
     </section>
+    
   );
 }
