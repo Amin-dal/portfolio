@@ -175,7 +175,7 @@ export function Hero() {
             </a>
 
             <a
-              href="/amin-dal.pdf"
+              href="/dal-amin.pdf"
               download="amin-dal-resume.pdf"
               className="w-full sm:w-auto px-8 py-4 glass hover:bg-muted/50 text-foreground font-semibold rounded-full transition-all flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
