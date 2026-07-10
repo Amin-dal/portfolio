@@ -51,6 +51,7 @@ export function About() {
               I don't just build websites; I build digital solutions that help businesses grow. 
               Whether it's a complex WooCommerce store, a custom Elementor implementation, or 
               advanced speed optimization, I deliver scalable results that exceed expectations.
+              amin
             </p>
 
             <div className="flex flex-wrap gap-3">
